@@ -1,103 +1,179 @@
-import Image from "next/image";
+'use client'
+
+import photoCV from '../assets/cv.jpg'
+import Image from 'next/image'
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <main className="max-w-7xl mx-auto text-gray-600">
+
+      <header className="p-4 md:px-8 bg-gray-100 uppercase tracking-[0.2rem] md:tracking-[0.5rem] flex flex-wrap">
+        <div className="mr-auto py-2 flex flex-col justify-center">
+          <h1 className="text-3xl md:text-5xl">Sergey Kulchytski</h1>
+          <p className="md:text-xl mt-1">Front-end Software Engineer</p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+        <Image src={photoCV} alt="Sergey Kulchytski" loading={'eager'} width={200} height={200} className="py-2 rounded-[50%]" />
+      </header>
+
+      <article className="flex flex-wrap">
+        <aside className="w-full md:w-1/3">
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Contact</h2>
+            <ul>
+              <li>Minsk, Belarus</li>
+              <li>workintellect@gmail.com</li>
+              <li><a href="https://t.me/sergeykulchytski" target="_blank" rel="nofollow noopenner" className="underline">Telegram (@sergeykulchytski)</a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/sergey-kulchytski/" target="_blank" rel="nofollow noopenner" className="underline">Linkedin</a></li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Github</h2>
+            <ul>
+              <li><a href="https://github.com/sergeykulchytski" target="_blank" rel="nofollow noopenner" className="underline">Link to the github</a></li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Education</h2>
+            <p>Belarusian State University of Informatics and Radioelectronics (2011)</p>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Languages</h2>
+            <ul>
+              <li>English - B1</li>
+              <li>Russian - Native</li>
+              <li>Belarussian - Native</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Workflow Skills</h2>
+            <ul>
+              <li>Task estimation</li>
+              <li>Attended daily stand-ups with the development team</li>
+              <li>Participated in weekly check-ins with the client</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Soft Skills</h2>
+            <ul>
+              <li>Team collaboration</li>
+              <li>Self-organization</li>
+              <li>Accountable</li>
+              <li>Communication</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Programming</h2>
+            <ul>
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Sass</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Frameworks</h2>
+            <ul>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Drupal Experience</h2>
+            <ul>
+              <li>Drupal 7–11</li>
+              <li>theme development</li>
+              <li>twig templating</li>
+              <li>custom JS behaviors</li>
+              <li>Composer</li>
+              <li>Drush</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Task Runners & Bundlers</h2>
+            <ul>
+              <li>Gulp</li>
+              <li>Webpack</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Code Quality</h2>
+            <ul>
+              <li>ESLint</li>
+              <li>Prettier</li>
+              <li>Husky</li>
+              <li>Stylelint</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Development Environment</h2>
+            <ul>
+              <li>VSCode</li>
+              <li>PHPStorm</li>
+              <li>Sublime Text</li>
+              <li>Git</li>
+              <li>GitLab</li>
+              <li>GitHub</li>
+              <li>Bitbucket</li>
+              <li>Terminal</li>
+              <li>Chrome DevTools</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Container & Local Development</h2>
+            <ul>
+              <li>docker</li>
+              <li>Lando</li>
+              <li>docker4drupal</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Design tools</h2>
+            <ul>
+              <li>Figma</li>
+              <li>Avocode</li>
+            </ul>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Operating Systems</h2>
+            <ul>
+              <li>Linux</li>
+            </ul>
+          </section>
+          
+        </aside>
+        
+        <div className="w-full md:w-2/3">
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Work experience</h2>
+            <div className="mb-3">
+              <h3>LLC “Attico”</h3>
+              <p className="period">06.2019 – present</p>
+              <p>Worked as a frontend developer for Drupal-based projects.</p>
+              <p>Worked with Drupal 7–11 on theme development:</p>
+              <ul>
+                <li>Created responsive layouts with HTML/CSS</li>
+                <li>Built custom Twig templates (Drupal 8+)</li>
+                <li>Wrote JavaScript behaviors using Drupal.attachBehaviors()</li>
+              </ul>
+            </div>
+            <div>
+              <h3>LLC “Eastern Technologies”</h3>
+              <p className="period">07.2015 – 05.2019</p>
+              <p>Independently built complete Drupal 7 websites</p>
+            </div>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Projects</h2>
+            
+          </section>
+        </div>
+        
+      </article>
+
+    </main>
+  )
+
 }
