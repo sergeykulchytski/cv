@@ -71,6 +71,7 @@ export default function Home() {
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Sass</li>
+              <li>storybook</li>
             </ul>
           </section>
           <section className="p-4 md:p-8">
@@ -107,6 +108,70 @@ export default function Home() {
               <li>Stylelint</li>
             </ul>
           </section>
+        </aside>
+        
+        <div className="w-full md:w-2/3">
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Work experience</h2>
+            <div className="mb-3">
+              <h3>LLC “Attico”</h3>
+              <p className="period">06.2019 – present</p>
+              <p>Worked as a frontend developer for Drupal-based projects.</p>
+              <p>Worked with Drupal 7–11 on theme development:</p>
+              <ul>
+                <li>Created responsive layouts with HTML/CSS</li>
+                <li>Built custom Twig templates (Drupal 8+)</li>
+                <li>Wrote JavaScript behaviors using Drupal.attachBehaviors()</li>
+              </ul>
+            </div>
+            <div>
+              <h3>LLC “Eastern Technologies”</h3>
+              <p className="period">07.2015 – 05.2019</p>
+              <p>Independently built complete Drupal 7 websites</p>
+            </div>
+          </section>
+          <section className="p-4 md:p-8">
+            <h2 className="heading">Projects</h2>
+            <div className="pb-4 md:p-4">
+              <h3>Artec3D</h3>
+              <ul>
+                <li><strong>Position:</strong> Frontend developer</li>
+                <li><strong>Link:</strong> <a href="https://www.artec3d.com/" target="_blank" rel="nofollow noopenner" className="underline">https://www.artec3d.com/</a></li>
+                <li><strong>Responsibilities:</strong> frontend, support, estimations, implement features, refactorings, design system, code review</li>
+                <li><strong>Environment:</strong> html, css, sass, bootstrap, javascript, twig, storybook, jQuery, gulp, Drupal 9, docker4drupal, drush, composer, Notion, Weeek</li>
+                <li><strong>Period:</strong> 2020 - now</li>
+              </ul>
+            </div>
+            <div className="pb-4 md:p-4">
+              <h3>Landing jordan-revaz.ch</h3>
+              <ul>
+                <li><strong>Position:</strong> Frontend developer</li>
+                <li><strong>Link:</strong> <a href="https://jordan-revaz.ch/" target="_blank" rel="nofollow noopenner" className="underline">https://jordan-revaz.ch/</a></li>
+                <li><strong>Responsibilities:</strong> frontend</li>
+                <li><strong>Environment:</strong> html, css, javascript</li>
+              </ul>
+            </div>
+            <div className="pb-4 md:p-4">
+              <h3>Landing “application solution”</h3>
+              <ul>
+                <li><strong>Position:</strong> Frontend developer</li>
+                <li><strong>Link:</strong> <a href="https://app-sol.ru/" target="_blank" rel="nofollow noopenner" className="underline">https://app-sol.ru/</a></li>
+                <li><strong>Responsibilities:</strong> frontend</li>
+                <li><strong>Environment:</strong> html, css, javascript</li>
+                <li><strong>Period:</strong> 2020</li>
+              </ul>
+            </div>
+            <div className="pb-4 md:p-4">
+              <h3>Redstone</h3>
+              <ul>
+                <li><strong>Position:</strong> Fullstack developer</li>
+                <li><strong>Link:</strong> <a href="https://redstone.by/" target="_blank" rel="nofollow noopenner" className="underline">https://redstone.by/</a></li>
+                <li><strong>Responsibilities:</strong> backend and frontend</li>
+                <li><strong>Environment:</strong> Drupal 7, css, html, php, js, jQuery, Bootstrap, webform, colorbox, slick slider, fullPage slider, lamp server</li>
+                <li><strong>Period:</strong> 2017</li>
+              </ul>
+            </div>
+          </section>
           <section className="p-4 md:p-8">
             <h2 className="heading">Development Environment</h2>
             <ul>
@@ -142,38 +207,9 @@ export default function Home() {
               <li>Linux</li>
             </ul>
           </section>
-          
-        </aside>
-        
-        <div className="w-full md:w-2/3">
-          <section className="p-4 md:p-8">
-            <h2 className="heading">Work experience</h2>
-            <div className="mb-3">
-              <h3>LLC “Attico”</h3>
-              <p className="period">06.2019 – present</p>
-              <p>Worked as a frontend developer for Drupal-based projects.</p>
-              <p>Worked with Drupal 7–11 on theme development:</p>
-              <ul>
-                <li>Created responsive layouts with HTML/CSS</li>
-                <li>Built custom Twig templates (Drupal 8+)</li>
-                <li>Wrote JavaScript behaviors using Drupal.attachBehaviors()</li>
-              </ul>
-            </div>
-            <div>
-              <h3>LLC “Eastern Technologies”</h3>
-              <p className="period">07.2015 – 05.2019</p>
-              <p>Independently built complete Drupal 7 websites</p>
-            </div>
-          </section>
-          <section className="p-4 md:p-8">
-            <h2 className="heading">Projects</h2>
-            
-          </section>
         </div>
         
       </article>
-
     </main>
   )
-
 }
