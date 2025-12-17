@@ -23,7 +23,7 @@ export default function Home() {
             <ul>
               <li>Minsk, Belarus</li>
               <li>workintellect@gmail.com</li>
-              <li><a href="https://t.me/sergeykulchytski" target="_blank" rel="nofollow noopenner" className="underline">Telegram (@sergeykulchytski)</a>
+              <li className="hidden"><a href="https://t.me/sergeykulchytski" target="_blank" rel="nofollow noopenner" className="underline">Telegram (@sergeykulchytski)</a>
               </li>
               <li><a href="https://www.linkedin.com/in/sergey-kulchytski/" target="_blank" rel="nofollow noopenner" className="underline">Linkedin</a></li>
             </ul>
@@ -136,7 +136,6 @@ export default function Home() {
               <h3>Artec3D</h3>
               <ul>
                 <li><strong>Position:</strong> Frontend developer</li>
-                <li><strong>Link:</strong> <a href="https://www.artec3d.com/" target="_blank" rel="nofollow noopenner" className="underline">https://www.artec3d.com/</a></li>
                 <li><strong>Responsibilities:</strong> frontend, support, estimations, implement features, refactorings, design system, code review</li>
                 <li><strong>Environment:</strong> html, css, sass, bootstrap, javascript, twig, storybook, jQuery, gulp, Drupal 9, docker4drupal, drush, composer, Notion, Weeek</li>
                 <li><strong>Period:</strong> 2020 - now</li>
@@ -146,7 +145,6 @@ export default function Home() {
               <h3>Landing jordan-revaz.ch</h3>
               <ul>
                 <li><strong>Position:</strong> Frontend developer</li>
-                <li><strong>Link:</strong> <a href="https://jordan-revaz.ch/" target="_blank" rel="nofollow noopenner" className="underline">https://jordan-revaz.ch/</a></li>
                 <li><strong>Responsibilities:</strong> frontend</li>
                 <li><strong>Environment:</strong> html, css, javascript</li>
               </ul>
@@ -155,7 +153,6 @@ export default function Home() {
               <h3>Landing “application solution”</h3>
               <ul>
                 <li><strong>Position:</strong> Frontend developer</li>
-                <li><strong>Link:</strong> <a href="https://app-sol.ru/" target="_blank" rel="nofollow noopenner" className="underline">https://app-sol.ru/</a></li>
                 <li><strong>Responsibilities:</strong> frontend</li>
                 <li><strong>Environment:</strong> html, css, javascript</li>
                 <li><strong>Period:</strong> 2020</li>
