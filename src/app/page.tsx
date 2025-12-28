@@ -133,7 +133,7 @@ export default function Home() {
           <section className="p-4 md:p-8">
             <h2 className="heading">Projects</h2>
             <div className="pb-4 md:p-4">
-              <h3>Artec3D</h3>
+              <h3>Artec</h3>
               <ul>
                 <li><strong>Position:</strong> Frontend developer</li>
                 <li><strong>Responsibilities:</strong> frontend, support, estimations, implement features, refactorings, design system, code review</li>
