@@ -122,6 +122,7 @@ export default function Home() {
                 <li>Created responsive layouts with HTML/CSS</li>
                 <li>Built custom Twig templates (Drupal 8+)</li>
                 <li>Wrote JavaScript behaviors using Drupal.attachBehaviors()</li>
+                <li>Created components of the storybook</li>
               </ul>
             </div>
             <div>
