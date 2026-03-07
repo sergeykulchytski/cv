@@ -11,7 +11,8 @@ export default function Home() {
       <header className="p-4 md:px-8 bg-gray-100 uppercase tracking-[0.2rem] md:tracking-[0.5rem] flex flex-wrap">
         <div className="mr-auto py-2 flex flex-col justify-center">
           <h1 className="text-3xl md:text-5xl">Sergey Kulchytski</h1>
-          <p className="md:text-xl mt-1">Front-end Software Engineer</p>
+          <p className="md:text-xl mt-1">Frontend developer</p>
+          {/* <p className="md:text-xl mt-1">Front-end Software Engineer</p> */}
         </div>
         <Image src={photoCV} alt="Sergey Kulchytski" loading={'eager'} width={200} height={200} className="py-2 rounded-[50%]" />
       </header>
