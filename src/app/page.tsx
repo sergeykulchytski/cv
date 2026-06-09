@@ -164,7 +164,7 @@ export default function Home() {
               <h3>Redstone</h3>
               <ul>
                 <li><strong>Position:</strong> Fullstack developer</li>
-                <li><strong>Link:</strong> <a href="https://redstone.by/" target="_blank" rel="nofollow noopenner" className="underline">https://redstone.by/</a></li>
+                {/* <li><strong>Link:</strong> <a href="https://redstone.by/" target="_blank" rel="nofollow noopenner" className="underline">https://redstone.by/</a></li> */}
                 <li><strong>Responsibilities:</strong> backend and frontend</li>
                 <li><strong>Environment:</strong> Drupal 7, css, html, php, js, jQuery, Bootstrap, webform, colorbox, slick slider, fullPage slider, lamp server</li>
                 <li><strong>Period:</strong> 2017</li>
