@@ -167,7 +167,7 @@ export default function Home() {
                 {/* <li><strong>Link:</strong> <a href="https://redstone.by/" target="_blank" rel="nofollow noopenner" className="underline">https://redstone.by/</a></li> */}
                 <li><strong>Responsibilities:</strong> backend and frontend</li>
                 <li><strong>Environment:</strong> Drupal 7, css, html, php, js, jQuery, Bootstrap, webform, colorbox, slick slider, fullPage slider, lamp server</li>
-                <li><strong>Period:</strong> 2017</li>
+                <li><strong>Period:</strong> 2017</li> 
               </ul>
             </div>
           </section>
