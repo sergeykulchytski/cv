@@ -91,6 +91,7 @@ export default function Home() {
               <li>custom JS behaviors</li>
               <li>Composer</li>
               <li>Drush</li>
+              <li>Terminus</li>
             </ul>
           </section>
           <section className="p-4 md:p-8">
@@ -188,9 +189,11 @@ export default function Home() {
           <section className="p-4 md:p-8">
             <h2 className="heading">Container & Local Development</h2>
             <ul>
+              <li>ddev</li>
               <li>docker</li>
               <li>Lando</li>
               <li>docker4drupal</li>
+              <li>fin</li>
             </ul>
           </section>
           <section className="p-4 md:p-8">
